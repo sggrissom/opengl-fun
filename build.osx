@@ -1,0 +1,1 @@
+c++ `sdl2-config --cflags` -I lib/ -I lib/gl3w app.cpp -x c lib/gl3w/GL/gl3w.c `sdl2-config --libs` -framework OpenGl -framework CoreFoundation -o app && ./app
